@@ -1,4 +1,5 @@
 (function () {
+    debugger;
     if (!console) {
         var console = {};
     }
