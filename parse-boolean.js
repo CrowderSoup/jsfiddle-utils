@@ -5,7 +5,7 @@
 			return val;
 		} else if (typeof val === "string") {
 			if (isNaN(val)) {
-				return (val.toLowerCase() === "false");
+				return !(val.toLowerCase() === "false");
 			}
 			
 			return val >= 1;
