@@ -1,5 +1,5 @@
 (function () {
-	Boolean.prototype.parse = function(val) {
+	window.parseBoolean = function(val) {
 		if(typeof val === "boolean"){
 			return val;
 		} else if (typeof val === "string") {
