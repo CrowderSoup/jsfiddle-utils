@@ -1,2 +1,3 @@
-# jsfiddle-utils
-Just some utils that I use when working with jsfiddle.net
+# jsutils
+Just a few JavaScript utils that I write to make my life easier or generally
+just have fun.
