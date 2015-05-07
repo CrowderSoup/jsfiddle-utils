@@ -30,7 +30,7 @@ nothing more.
 - if a value isn't a boolean, string, or number we'll return it's 
 "truthy"/"falsey" value (objects are true, always)
 
-Examples ([jsFiddle](http://jsfiddle.net/CrowderSoup/5fywj34f/1/)):
+Examples ([jsFiddle](http://jsfiddle.net/CrowderSoup/5fywj34f/2/)):
 ```
 (function() {
     var shouldBeABool = [
