@@ -20,6 +20,10 @@
     };
     
     var fromString = function (val) {
-        return !(val.toLowerCase() === "false");
+        if (val.trim().length === 0) {
+            return false;
+        }
+        
+        return !(val.trim().toLowerCase() === "false");
     };
 })();
