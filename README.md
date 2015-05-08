@@ -27,8 +27,10 @@ nothing more.
 
 **Things to remember**
 - Strings are converted to lower case
-- if a value isn't a boolean, string, or number we'll return it's 
-"truthy"/"falsey" value (objects are true, always)
+- If a value isn't a boolean, string, or number we'll return it's 
+"truthy"/"falsey" value (eg., objects are true, always)
+- Any string that doesn't equal "false" will be true
+- A function, even if it returns `false`, will be true.
 
 Examples ([jsFiddle](http://jsfiddle.net/CrowderSoup/5fywj34f/2/)):
 ```
@@ -57,7 +59,3 @@ Examples ([jsFiddle](http://jsfiddle.net/CrowderSoup/5fywj34f/2/)):
     }
 })();
 ```
-
-Some surprising things:
-- Any string that doesn't equal "false" will be true
-- A function, even if it returns `false`, will be true.
