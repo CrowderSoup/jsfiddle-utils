@@ -31,6 +31,7 @@ nothing more.
 "truthy"/"falsey" value (eg., objects are true, always)
 - Any string that doesn't equal "false" will be true
 - A function, even if it returns `false`, will be true.
+- +0 or -0 will be false, anything else (even -1) will be true
 
 Examples ([jsFiddle](http://jsfiddle.net/CrowderSoup/5fywj34f/2/)):
 ```
